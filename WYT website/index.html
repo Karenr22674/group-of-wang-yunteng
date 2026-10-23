@@ -1,0 +1,1658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wang's Computational Geomechanics Lab | BOKU Vienna</title>
+  <meta name="description" content="Research group of Priv.-Doz. Dr. Yunteng Wang at the Institute of Geotechnical Engineering, BOKU University Vienna. Specializing in Peridynamics (PD), Phase-Field Modeling, and multiscale geomaterials mechanics.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Sticky Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="brand">
+        <img src="images/boku_logo.png" alt="BOKU University" class="brand-logo-img">
+        <div class="brand-text">
+          <span class="brand-name">Wang's Geomechanics Lab</span>
+          <span class="brand-sub">Institute of Geotechnical Engineering, BOKU Vienna</span>
+        </div>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#research">Research (PD &amp; Phase-Field)</a>
+        <a href="#publications">Publications (45)</a>
+        <a href="#team">People</a>
+        <a href="#news">News</a>
+        <a href="#openings" class="nav-cta">Join Us</a>
+      </nav>
+
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="about">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-pill">
+          <span class="dot"></span>
+          <span>Computational Geomechanics &bull; BOKU Vienna</span>
+        </div>
+        <h1 class="hero-title">
+          Pioneering <span class="highlight">Peridynamics</span> &amp; <span class="highlight">Phase-Field</span> Modeling in Discontinuous Geomaterials
+        </h1>
+        <p class="hero-sub">
+          We develop advanced continuum and nonlocal numerical methods to resolve dynamic fracture, strain localization, and progressive multi-physics failures across geotechnical, rock engineering, and energy geosciences.
+        </p>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <h4>BOKU IGT</h4>
+            <p>Host Institute</p>
+          </div>
+          <div class="stat-item">
+            <h4>45+</h4>
+            <p>Google Scholar Works</p>
+          </div>
+          <div class="stat-item">
+            <h4>FWF Funded</h4>
+            <p>Research Grants</p>
+          </div>
+          <div class="stat-item">
+            <h4>Vienna, AT</h4>
+            <p>Location</p>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#research" class="btn btn-primary">Explore Research</a>
+          <a href="#publications" class="btn btn-outline">All Publications (45)</a>
+          <a href="#openings" class="btn btn-outline">Open Positions</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Principal Investigator Profile Section -->
+  <section class="section section-alt" id="pi">
+    <div class="container">
+      <div class="pi-section-box">
+        <div class="pi-photo-wrapper">
+          <img src="images/pi_yunteng_wang.png" alt="Priv.-Doz. Dr. Yunteng Wang" class="pi-photo">
+        </div>
+        <div class="pi-info">
+          <h3>Priv.-Doz. Dr. Yunteng WANG (王允腾)</h3>
+          <p class="pi-role">Head of Research Group &bull; Senior Scientist &bull; Privatdozent (Venia Docendi)</p>
+          <p class="pi-affil">Institute of Geotechnical Engineering, Department of Civil Engineering and Natural Hazards, BOKU University</p>
+          <p class="pi-bio">
+            Dr. Yunteng Wang leads the Computational Geomechanics Group at BOKU Vienna. His primary research focuses on <strong>Peridynamics (PD)</strong> formulations for crack initiation, propagation, and coalescence in rocks, <strong>Phase-Field modeling</strong> of brittle/ductile fracture and shear localization in saturated/unsaturated geomaterials, and multi-scale simulations of large-deformation geohazards. He was awarded the <em>BOKU Best Paper Award</em> (City of Vienna Anniversary Fund) and serves as Principal Investigator on several research initiatives.
+          </p>
+          <div class="pi-links">
+            <a href="https://scholar.google.com/scholar?q=author%3A%22Yunteng+Wang%22+BOKU" target="_blank" rel="noopener noreferrer" class="badge-link">🎓 Google Scholar Profile</a>
+            <a href="https://www.researchgate.net/profile/Yunteng-Wang" target="_blank" rel="noopener noreferrer" class="badge-link">🔬 ResearchGate</a>
+            <a href="https://forschung.boku.ac.at/de/portrait/2B0A9792DA39EB29" target="_blank" rel="noopener noreferrer" class="badge-link">🏛️ BOKU FIS Portrait</a>
+            <a href="mailto:yunteng.wang@boku.ac.at" class="badge-link">✉️ yunteng.wang@boku.ac.at</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research Pillars Section -->
+  <section class="section" id="research">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Scientific Pillars</span>
+        <h2 class="section-title">Core Research Directions</h2>
+        <p class="section-desc">
+          Integrating nonlocal Peridynamics, variational Phase-Field methods, and particle simulations to tackle critical challenges in civil and geotechnical engineering.
+        </p>
+      </div>
+
+      <div class="research-grid" id="research-grid">
+        <!-- Pillar 1: PD -->
+        <div class="research-card core-focus">
+          <div class="card-top">
+            <span class="card-badge">PD Mechanics</span>
+            <span class="card-id-tag">[Core Focus]</span>
+          </div>
+          <h3 class="card-title">Peridynamics (PD) in Geomaterials &amp; Rocks</h3>
+          <p class="card-summary">Nonlocal formulation for progressive crack initiation, propagation, and coalescence in heterogeneous rock and soil media without predefined failure surfaces.</p>
+          <ul class="card-points">
+            <li>Bond-level energy-based &amp; non-ordinary state-based peridynamic formulations for rocks</li>
+            <li>Dynamic crack branching, fragmentation, and mixed-mode fracture under impact/blast loadings</li>
+            <li>Adaptive coupling between peridynamics and continuum methods (PD-FEM/PD-SPH)</li>
+          </ul>
+          <div class="card-highlight">
+            <strong>Key Objective:</strong> Resolving discontinuous displacement fields and complex crack topologies natively.
+          </div>
+        </div>
+
+        <!-- Pillar 2: Phase-Field -->
+        <div class="research-card core-focus">
+          <div class="card-top">
+            <span class="card-badge">Phase-Field</span>
+            <span class="card-id-tag">[Core Focus]</span>
+          </div>
+          <h3 class="card-title">Phase-Field Modeling of Fracture &amp; Shear Bands</h3>
+          <p class="card-summary">Thermodynamically consistent variational framework for diffuse crack propagation, strain localization, and multi-field coupled failure in porous geomaterials.</p>
+          <ul class="card-points">
+            <li>Thermodynamically consistent phase-field modeling of frictional fracture in rocks (IJP / CMAME)</li>
+            <li>Dynamic strain localization into compaction bands via phase-field approach (JMPS)</li>
+            <li>Coupled Thermo-Hydro-Mechanical-Fracture (THM-F) multi-physics in subsurface engineering</li>
+          </ul>
+          <div class="card-highlight">
+            <strong>Key Objective:</strong> Energy minimization principles capturing crack bifurcation, merging, and frictional contact.
+          </div>
+        </div>
+
+        <!-- Pillar 3: Scaly Clay -->
+        <div class="research-card">
+          <div class="card-top">
+            <span class="card-badge">MOSCALA Project</span>
+            <span class="card-id-tag">[FWF Project]</span>
+          </div>
+          <h3 class="card-title">Progressive Failure in Scaly Clays &amp; Geohazards</h3>
+          <p class="card-summary">Investigation of macroscopic large-deformation failure and microscopic structural degradation in structurally complex scaly clays (FWF Funded).</p>
+          <ul class="card-points">
+            <li>Mechanics of fissured, sheared, and heterogeneous clay-rock formations</li>
+            <li>Large-deformation modeling of rainfall- and earthquake-induced landslides</li>
+            <li>Laboratory testing, CT micro-characterization, and constitutive modeling of scaly fabrics</li>
+          </ul>
+          <div class="card-highlight">
+            <strong>Key Objective:</strong> Bridging microscopic fabric orientation to regional slope stability mechanisms.
+          </div>
+        </div>
+
+        <!-- Pillar 4: SPH & DEM -->
+        <div class="research-card">
+          <div class="card-top">
+            <span class="card-badge">SPH / DEM / SPH-FEM</span>
+            <span class="card-id-tag">[Methodology]</span>
+          </div>
+          <h3 class="card-title">Particle Methods &amp; Multiscale Geomechanics</h3>
+          <p class="card-summary">Advanced numerical discrete and particle continuum algorithms coupled with data-driven modeling for geotechnical hazards and granular flows.</p>
+          <ul class="card-points">
+            <li>Smoothed Particle Hydrodynamics (SPH) and Discrete Element Method (DEM) coupling</li>
+            <li>Solid-to-fluid-like transition in rapid landslides, debris flows, and avalanches</li>
+            <li>Data-driven constitutive modeling and scientific machine learning in geomechanics</li>
+          </ul>
+          <div class="card-highlight">
+            <strong>Key Objective:</strong> Simulating post-failure runaway processes and high-consequence natural hazards.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Complete Publications Section (45 Papers) -->
+  <section class="section section-alt" id="publications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Complete Archive</span>
+        <h2 class="section-title">All Publications (45 Articles)</h2>
+        <p class="section-desc">
+          Complete publication record of Dr. Yunteng Wang from Google Scholar &amp; OpenAlex. Click any title or button to view the official DOI / Publisher page.
+        </p>
+      </div>
+
+      <!-- Search & Filters -->
+      <div class="pub-controls">
+        <div class="pub-search-box">
+          <input type="text" id="pub-search-input" placeholder="🔍 Search papers by title, keyword, author or year..." autocomplete="off">
+        </div>
+        <div class="pub-filter-bar">
+          <button class="filter-btn active" data-filter="All">All (45)</button>
+          <button class="filter-btn" data-filter="Peridynamics">Peridynamics (PD)</button>
+          <button class="filter-btn" data-filter="Phase-Field">Phase-Field</button>
+          <button class="filter-btn" data-filter="Fracture">Fracture &amp; Rocks</button>
+          <button class="filter-btn" data-filter="Geotechnics">Geotechnics</button>
+        </div>
+      </div>
+
+      <div class="pub-list-count" id="pub-count-display">Showing 45 of 45 publications</div>
+
+      <div class="pub-list" id="pub-list">
+
+        <!-- Paper 1 (2026) -->
+        <div class="pub-item" data-tags="Phase-Field Fracture & Rocks" data-year="2026" data-search="fatigue mechanisms of porous rocks subjected to cyclic pore pressures: insights from hydro-mechanical phase-field simulations <strong>sijia liu</strong>, <strong>yunteng wang*</strong> rock mechanics and rock engineering 2026">
+          <div class="pub-year">2026</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1007/s00603-026-05981-3" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Fatigue Mechanisms of Porous Rocks Subjected to Cyclic Pore Pressures: Insights from Hydro-Mechanical Phase-Field Simulations
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors"><strong>Sijia Liu</strong>, <strong>Yunteng Wang*</strong></p>
+            <p class="pub-journal">Rock Mechanics and Rock Engineering</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1007/s00603-026-05981-3" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Fatigue%20Mechanisms%20of%20Porous%20Rocks%20Subjected%20to%20Cyclic%20Pore%20Pressures%3A%20Insights%20from%20Hydro-Mechanical%20Phase-Field%20Simulations" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Phase-Field</span><span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 2 (2026) -->
+        <div class="pub-item" data-tags="Phase-Field" data-year="2026" data-search="how does rapid stochastic injection–withdrawal govern wellbore integrity in underground energy storage: a phase-field modeling study <strong>xin liu</strong>, <strong>yunteng wang*</strong>, wei wu international journal of rock mechanics and mining sciences 2026">
+          <div class="pub-year">2026</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.ijrmms.2026.106712" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                How does rapid stochastic injection–withdrawal govern wellbore integrity in underground energy storage: A phase-field modeling study
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors"><strong>Xin Liu</strong>, <strong>Yunteng Wang*</strong>, Wei Wu</p>
+            <p class="pub-journal">International Journal of Rock Mechanics and Mining Sciences</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.ijrmms.2026.106712" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=How%20does%20rapid%20stochastic%20injection%E2%80%93withdrawal%20govern%20wellbore%20integrity%20in%20underground%20energy%20storage%3A%20A%20phase-field%20modeling%20study" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Phase-Field</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 3 (2025) -->
+        <div class="pub-item" data-tags="Peridynamics" data-year="2025" data-search="a rate-dependent elastoplastic ordinary state-based peridynamic model for concrete under impact loading shuyu wang, linjuan wang, <strong>yunteng wang*</strong>, fengrui liu, libin zhao international journal of plasticity 2025">
+          <div class="pub-year">2025</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.ijplas.2025.104427" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                A rate-dependent elastoplastic ordinary state-based peridynamic model for concrete under impact loading
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Shuyu Wang, Linjuan Wang, <strong>Yunteng Wang*</strong>, Fengrui Liu, Libin Zhao</p>
+            <p class="pub-journal">International Journal of Plasticity</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.ijplas.2025.104427" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=A%20rate-dependent%20elastoplastic%20ordinary%20state-based%20peridynamic%20model%20for%20concrete%20under%20impact%20loading" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Peridynamics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 4 (2024) -->
+        <div class="pub-item" data-tags="Phase-Field Fracture & Rocks" data-year="2024" data-search="a thermodynamically consistent phase-field model for frictional fracture in rocks <strong>sijia liu</strong>, <strong>yunteng wang*</strong> international journal of plasticity 2024">
+          <div class="pub-year">2024</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.ijplas.2024.104220" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                A thermodynamically consistent phase-field model for frictional fracture in rocks
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors"><strong>Sijia Liu</strong>, <strong>Yunteng Wang*</strong></p>
+            <p class="pub-journal">International Journal of Plasticity</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.ijplas.2024.104220" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=A%20thermodynamically%20consistent%20phase-field%20model%20for%20frictional%20fracture%20in%20rocks" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Phase-Field</span><span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 5 (2024) -->
+        <div class="pub-item" data-tags="Computational Mechanics" data-year="2024" data-search="experimental study on sc-co2 fracturing of granite under real-time high temperature and true triaxial stress yang yang, dawei hu, haizhu wang, <strong>yunteng wang*</strong>, dianbin guo, hui zhou international journal of rock mechanics and mining sciences 2024">
+          <div class="pub-year">2024</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.ijrmms.2024.105889" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Experimental study on Sc-CO2 fracturing of granite under real-time high temperature and true triaxial stress
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Yang Yang, Dawei Hu, Haizhu Wang, <strong>Yunteng Wang*</strong>, Dianbin Guo, Hui Zhou</p>
+            <p class="pub-journal">International Journal of Rock Mechanics and Mining Sciences</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.ijrmms.2024.105889" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Experimental%20study%20on%20Sc-CO2%20fracturing%20of%20granite%20under%20real-time%20high%20temperature%20and%20true%20triaxial%20stress" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Computational Mechanics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 6 (2024) -->
+        <div class="pub-item" data-tags="Phase-Field Fracture & Rocks" data-year="2024" data-search="phase-field modeling of brittle failure in rockslides <strong>yunteng wang*</strong>, shun wang, enrico soranzo, xiaoping zhou, wei wu springer series in geomechanics and geoengineering 2024">
+          <div class="pub-year">2024</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1007/978-3-031-52159-1_16" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Phase-field Modeling of Brittle Failure in Rockslides
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors"><strong>Yunteng Wang*</strong>, Shun Wang, Enrico Soranzo, Xiaoping Zhou, Wei Wu</p>
+            <p class="pub-journal">Springer series in geomechanics and geoengineering</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1007/978-3-031-52159-1_16" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Phase-field%20Modeling%20of%20Brittle%20Failure%20in%20Rockslides" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Phase-Field</span><span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 7 (2024) -->
+        <div class="pub-item" data-tags="Computational Mechanics" data-year="2024" data-search="machine learning prediction of bleeding of bored concrete piles based on centrifuge tests enrico soranzo, carlotta guardiani, <strong>yunteng wang*</strong>, wei wu springer series in geomechanics and geoengineering 2024">
+          <div class="pub-year">2024</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1007/978-3-031-52159-1_10" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Machine Learning Prediction of Bleeding of Bored Concrete Piles Based on Centrifuge Tests
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Enrico Soranzo, Carlotta Guardiani, <strong>Yunteng Wang*</strong>, Wei Wu</p>
+            <p class="pub-journal">Springer series in geomechanics and geoengineering</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1007/978-3-031-52159-1_10" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Machine%20Learning%20Prediction%20of%20Bleeding%20of%20Bored%20Concrete%20Piles%20Based%20on%20Centrifuge%20Tests" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Computational Mechanics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 8 (2024) -->
+        <div class="pub-item" data-tags="Computational Mechanics" data-year="2024" data-search="prediction of tunnelling-induced settlement trough by artificial neural networks enrico soranzo, christoph pock, carlotta guardiani, <strong>yunteng wang*</strong>, wei wu springer series in geomechanics and geoengineering 2024">
+          <div class="pub-year">2024</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1007/978-3-031-52159-1_9" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Prediction of Tunnelling-Induced Settlement Trough by Artificial Neural Networks
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Enrico Soranzo, Christoph Pock, Carlotta Guardiani, <strong>Yunteng Wang*</strong>, Wei Wu</p>
+            <p class="pub-journal">Springer series in geomechanics and geoengineering</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1007/978-3-031-52159-1_9" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Prediction%20of%20Tunnelling-Induced%20Settlement%20Trough%20by%20Artificial%20Neural%20Networks" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Computational Mechanics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 9 (2023) -->
+        <div class="pub-item" data-tags="Peridynamics Fracture & Rocks" data-year="2023" data-search="a bond-level energy-based peridynamics for mixed-mode fracture in rocks <strong>yunteng wang*</strong>, wei wu computer methods in applied mechanics and engineering 2023">
+          <div class="pub-year">2023</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.cma.2023.116169" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                A bond-level energy-based peridynamics for mixed-mode fracture in rocks
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors"><strong>Yunteng Wang*</strong>, Wei Wu</p>
+            <p class="pub-journal">Computer Methods in Applied Mechanics and Engineering</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.cma.2023.116169" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=A%20bond-level%20energy-based%20peridynamics%20for%20mixed-mode%20fracture%20in%20rocks" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Peridynamics</span><span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 10 (2023) -->
+        <div class="pub-item" data-tags="Phase-Field" data-year="2023" data-search="a modified phase-field model for cohesive interface failure in quasi-brittle solids <strong>sijia liu</strong>, <strong>yunteng wang*</strong>, wei wu international journal of mechanical sciences 2023">
+          <div class="pub-year">2023</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.ijmecsci.2023.108368" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                A modified phase-field model for cohesive interface failure in quasi-brittle solids
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors"><strong>Sijia Liu</strong>, <strong>Yunteng Wang*</strong>, Wei Wu</p>
+            <p class="pub-journal">International Journal of Mechanical Sciences</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.ijmecsci.2023.108368" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=A%20modified%20phase-field%20model%20for%20cohesive%20interface%20failure%20in%20quasi-brittle%20solids" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Phase-Field</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 11 (2023) -->
+        <div class="pub-item" data-tags="Computational Mechanics" data-year="2023" data-search="frankenstein’s data-driven computing approach to model-free mechanics bram van der heijden, <strong>yunteng wang*</strong>, gilles lubineau a computational mechanics 2023">
+          <div class="pub-year">2023</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1007/s00466-023-02307-w" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Frankenstein’s data-driven computing approach to model-free mechanics
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Bram van der Heijden, <strong>Yunteng Wang*</strong>, Gilles Lubineau A</p>
+            <p class="pub-journal">Computational Mechanics</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1007/s00466-023-02307-w" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Frankenstein%E2%80%99s%20data-driven%20computing%20approach%20to%20model-free%20mechanics" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Computational Mechanics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 12 (2023) -->
+        <div class="pub-item" data-tags="Peridynamics" data-year="2023" data-search="chemo-mechanical coupling bond-based peridynamic model for electrochemical corrosion and stress chemical corrosion xiaoping zhou, er-bao du, <strong>yunteng wang*</strong> engineering analysis with boundary elements 2023">
+          <div class="pub-year">2023</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.enganabound.2023.03.013" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Chemo-mechanical coupling bond-based peridynamic model for electrochemical corrosion and stress chemical corrosion
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Xiaoping Zhou, Er-Bao Du, <strong>Yunteng Wang*</strong></p>
+            <p class="pub-journal">Engineering Analysis with Boundary Elements</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.enganabound.2023.03.013" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Chemo-mechanical%20coupling%20bond-based%20peridynamic%20model%20for%20electrochemical%20corrosion%20and%20stress%20chemical%20corrosion" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Peridynamics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 13 (2023) -->
+        <div class="pub-item" data-tags="Phase-Field" data-year="2023" data-search="dynamic strain localization into a compaction band via a phase-field approach <strong>yunteng wang*</strong>, ronaldo i. borja, wei wu journal of the mechanics and physics of solids 2023">
+          <div class="pub-year">2023</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.jmps.2023.105228" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Dynamic strain localization into a compaction band via a phase-field approach
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors"><strong>Yunteng Wang*</strong>, Ronaldo I. Borja, Wei Wu</p>
+            <p class="pub-journal">Journal of the Mechanics and Physics of Solids</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.jmps.2023.105228" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Dynamic%20strain%20localization%20into%20a%20compaction%20band%20via%20a%20phase-field%20approach" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Phase-Field</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 14 (2022) -->
+        <div class="pub-item" data-tags="Geotechnics" data-year="2022" data-search="convolutional neural networks prediction of the factor of safety of random layered slopes by the strength reduction method enrico soranzo, carlotta guardiani, yiru chen, <strong>yunteng wang*</strong>, wei wu acta geotechnica 2022">
+          <div class="pub-year">2022</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1007/s11440-022-01783-3" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Convolutional neural networks prediction of the factor of safety of random layered slopes by the strength reduction method
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Enrico Soranzo, Carlotta Guardiani, Yiru Chen, <strong>Yunteng Wang*</strong>, Wei Wu</p>
+            <p class="pub-journal">Acta Geotechnica</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1007/s11440-022-01783-3" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Convolutional%20neural%20networks%20prediction%20of%20the%20factor%20of%20safety%20of%20random%20layered%20slopes%20by%20the%20strength%20reduction%20method" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Geotechnics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 15 (2022) -->
+        <div class="pub-item" data-tags="Fracture & Rocks" data-year="2022" data-search="influence of material heterogeneity on the blast-induced crack initiation and propagation in brittle rock shuyu wang, linjuan wang, <strong>yunteng wang*</strong> computers and geotechnics 2022">
+          <div class="pub-year">2022</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.compgeo.2022.105203" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Influence of material heterogeneity on the blast-induced crack initiation and propagation in brittle rock
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Shuyu Wang, Linjuan Wang, <strong>Yunteng Wang*</strong></p>
+            <p class="pub-journal">Computers and Geotechnics</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.compgeo.2022.105203" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Influence%20of%20material%20heterogeneity%20on%20the%20blast-induced%20crack%20initiation%20and%20propagation%20in%20brittle%20rock" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 16 (2022) -->
+        <div class="pub-item" data-tags="Peridynamics Fracture & Rocks" data-year="2022" data-search="thermo-hydro-chemo-mechanical coupling peridynamic model of fractured rock mass and its application in geothermal extraction xiaoping zhou, er-bao du, <strong>yunteng wang*</strong> computers and geotechnics 2022">
+          <div class="pub-year">2022</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.compgeo.2022.104837" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Thermo-hydro-chemo-mechanical coupling peridynamic model of fractured rock mass and its application in geothermal extraction
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Xiaoping Zhou, Er-Bao Du, <strong>Yunteng Wang*</strong></p>
+            <p class="pub-journal">Computers and Geotechnics</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.compgeo.2022.104837" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Thermo-hydro-chemo-mechanical%20coupling%20peridynamic%20model%20of%20fractured%20rock%20mass%20and%20its%20application%20in%20geothermal%20extraction" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Peridynamics</span><span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 17 (2022) -->
+        <div class="pub-item" data-tags="Phase-Field Fracture & Rocks" data-year="2022" data-search="a thermodynamically consistent phase field model for mixed-mode fracture in rock-like materials <strong>sijia liu</strong>, <strong>yunteng wang*</strong>, chong peng, wei wu computer methods in applied mechanics and engineering 2022">
+          <div class="pub-year">2022</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.cma.2022.114642" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                A thermodynamically consistent phase field model for mixed-mode fracture in rock-like materials
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors"><strong>Sijia Liu</strong>, <strong>Yunteng Wang*</strong>, Chong Peng, Wei Wu</p>
+            <p class="pub-journal">Computer Methods in Applied Mechanics and Engineering</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.cma.2022.114642" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=A%20thermodynamically%20consistent%20phase%20field%20model%20for%20mixed-mode%20fracture%20in%20rock-like%20materials" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Phase-Field</span><span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 18 (2021) -->
+        <div class="pub-item" data-tags="Fracture & Rocks" data-year="2021" data-search="machine learning approaches to rock fracture mechanics problems: mode-i fracture toughness determination <strong>yunteng wang*</strong>, xiang zhang, xianshan liu engineering fracture mechanics 2021">
+          <div class="pub-year">2021</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.engfracmech.2021.107890" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Machine learning approaches to rock fracture mechanics problems: Mode-I fracture toughness determination
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors"><strong>Yunteng Wang*</strong>, Xiang Zhang, Xianshan Liu</p>
+            <p class="pub-journal">Engineering Fracture Mechanics</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.engfracmech.2021.107890" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Machine%20learning%20approaches%20to%20rock%20fracture%20mechanics%20problems%3A%20Mode-I%20fracture%20toughness%20determination" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 19 (2020) -->
+        <div class="pub-item" data-tags="Peridynamics" data-year="2020" data-search="state-of-the-art review on the progressive failure characteristics of geomaterials in peridynamic theory xiaoping zhou, <strong>yunteng wang*</strong> journal of engineering mechanics 2020">
+          <div class="pub-year">2020</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1061/(asce)em.1943-7889.0001876" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                State-of-the-Art Review on the Progressive Failure Characteristics of Geomaterials in Peridynamic Theory
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Xiaoping Zhou, <strong>Yunteng Wang*</strong></p>
+            <p class="pub-journal">Journal of Engineering Mechanics</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1061/(asce)em.1943-7889.0001876" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=State-of-the-Art%20Review%20on%20the%20Progressive%20Failure%20Characteristics%20of%20Geomaterials%20in%20Peridynamic%20Theory" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Peridynamics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 20 (2020) -->
+        <div class="pub-item" data-tags="Peridynamics Fracture & Rocks" data-year="2020" data-search="hydromechanical bond-based peridynamic model for pressurized and fluid-driven fracturing processes in fissured porous rocks xiaoping zhou, <strong>yunteng wang*</strong>, yundong shou international journal of rock mechanics and mining sciences 2020">
+          <div class="pub-year">2020</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.ijrmms.2020.104383" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Hydromechanical bond-based peridynamic model for pressurized and fluid-driven fracturing processes in fissured porous rocks
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Xiaoping Zhou, <strong>Yunteng Wang*</strong>, Yundong Shou</p>
+            <p class="pub-journal">International Journal of Rock Mechanics and Mining Sciences</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.ijrmms.2020.104383" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Hydromechanical%20bond-based%20peridynamic%20model%20for%20pressurized%20and%20fluid-driven%20fracturing%20processes%20in%20fissured%20porous%20rocks" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Peridynamics</span><span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 21 (2020) -->
+        <div class="pub-item" data-tags="Fracture & Rocks" data-year="2020" data-search="study on rock fracture behavior under hydromechanical loading by 3-d digital reconstruction miaomiao kou, xinrong liu, <strong>yunteng wang*</strong> structural engineering and mechanics 2020">
+          <div class="pub-year">2020</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.12989/sem.2020.74.2.283" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Study on rock fracture behavior under hydromechanical loading by 3-D digital reconstruction
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Miaomiao Kou, Xinrong Liu, <strong>Yunteng Wang*</strong></p>
+            <p class="pub-journal">STRUCTURAL ENGINEERING AND MECHANICS</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.12989/sem.2020.74.2.283" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Study%20on%20rock%20fracture%20behavior%20under%20hydromechanical%20loading%20by%203-D%20digital%20reconstruction" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 22 (2020) -->
+        <div class="pub-item" data-tags="Peridynamics Fracture & Rocks" data-year="2020" data-search="peridynamic analysis of dynamic fracture behaviors in fgms with different gradient directions miaomiao kou, jing zhong bi, binhang yuan, <strong>yunteng wang*</strong> structural engineering and mechanics 2020">
+          <div class="pub-year">2020</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.12989/sem.2020.75.3.339" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Peridynamic analysis of dynamic fracture behaviors in FGMs with different gradient directions
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Miaomiao Kou, Jing Zhong Bi, Binhang Yuan, <strong>Yunteng Wang*</strong></p>
+            <p class="pub-journal">STRUCTURAL ENGINEERING AND MECHANICS</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.12989/sem.2020.75.3.339" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Peridynamic%20analysis%20of%20dynamic%20fracture%20behaviors%20in%20FGMs%20with%20different%20gradient%20directions" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Peridynamics</span><span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 23 (2019) -->
+        <div class="pub-item" data-tags="Peridynamics Fracture & Rocks" data-year="2019" data-search="numerical simulations of failure characteristics of rock materials under blasting loads using the conjugated bond-pair-based peridynamics xiaoping zhou, <strong>yunteng wang*</strong>, qihu qian zhongguo kexue. wulixue lixue tianwenxue 2019">
+          <div class="pub-year">2019</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1360/sspma-2019-0181" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Numerical simulations of failure characteristics of rock materials under blasting loads using the conjugated bond-pair-based peridynamics
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Xiaoping Zhou, <strong>Yunteng Wang*</strong>, Qihu Qian</p>
+            <p class="pub-journal">Zhongguo kexue. Wulixue Lixue Tianwenxue</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1360/sspma-2019-0181" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Numerical%20simulations%20of%20failure%20characteristics%20of%20rock%20materials%20under%20blasting%20loads%20using%20the%20conjugated%20bond-pair-based%20peridynamics" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Peridynamics</span><span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 24 (2019) -->
+        <div class="pub-item" data-tags="Fracture & Rocks" data-year="2019" data-search="3-d x-ray computed tomography on failure characteristics of rock-like materials under coupled hydro-mechanical loading miaomiao kou, xinrong liu, shangding tang, <strong>yunteng wang*</strong> theoretical and applied fracture mechanics 2019">
+          <div class="pub-year">2019</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.tafmec.2019.102396" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                3-D X-ray computed tomography on failure characteristics of rock-like materials under coupled hydro-mechanical loading
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Miaomiao Kou, Xinrong Liu, Shangding Tang, <strong>Yunteng Wang*</strong></p>
+            <p class="pub-journal">Theoretical and Applied Fracture Mechanics</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.tafmec.2019.102396" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=3-D%20X-ray%20computed%20tomography%20on%20failure%20characteristics%20of%20rock-like%20materials%20under%20coupled%20hydro-mechanical%20loading" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 25 (2019) -->
+        <div class="pub-item" data-tags="Fracture & Rocks" data-year="2019" data-search="size effect of thermal shock crack patterns in ceramics: insights from a nonlocal numerical approach <strong>yunteng wang*</strong>, xiaoping zhou, ting zhang mechanics of materials 2019">
+          <div class="pub-year">2019</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.mechmat.2019.103133" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Size effect of thermal shock crack patterns in ceramics: Insights from a nonlocal numerical approach
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors"><strong>Yunteng Wang*</strong>, Xiaoping Zhou, Ting Zhang</p>
+            <p class="pub-journal">Mechanics of Materials</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.mechmat.2019.103133" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Size%20effect%20of%20thermal%20shock%20crack%20patterns%20in%20ceramics%3A%20Insights%20from%20a%20nonlocal%20numerical%20approach" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 26 (2019) -->
+        <div class="pub-item" data-tags="Peridynamics Fracture & Rocks" data-year="2019" data-search="peridynamic simulation of thermal failure behaviors in rocks subjected to heating from boreholes <strong>yunteng wang*</strong>, xiaoping zhou international journal of rock mechanics and mining sciences 2019">
+          <div class="pub-year">2019</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.ijrmms.2019.03.007" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Peridynamic simulation of thermal failure behaviors in rocks subjected to heating from boreholes
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors"><strong>Yunteng Wang*</strong>, Xiaoping Zhou</p>
+            <p class="pub-journal">International Journal of Rock Mechanics and Mining Sciences</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.ijrmms.2019.03.007" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Peridynamic%20simulation%20of%20thermal%20failure%20behaviors%20in%20rocks%20subjected%20to%20heating%20from%20boreholes" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Peridynamics</span><span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 27 (2019) -->
+        <div class="pub-item" data-tags="Fracture & Rocks" data-year="2019" data-search="numerical investigations on crack propagation and crack branching in brittle solids under dynamic loading using bond-particle model miaomiao kou, y.j. lian, <strong>yunteng wang*</strong> engineering fracture mechanics 2019">
+          <div class="pub-year">2019</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.engfracmech.2019.03.012" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Numerical investigations on crack propagation and crack branching in brittle solids under dynamic loading using bond-particle model
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Miaomiao Kou, Y.J. Lian, <strong>Yunteng Wang*</strong></p>
+            <p class="pub-journal">Engineering Fracture Mechanics</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.engfracmech.2019.03.012" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Numerical%20investigations%20on%20crack%20propagation%20and%20crack%20branching%20in%20brittle%20solids%20under%20dynamic%20loading%20using%20bond-particle%20model" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 28 (2019) -->
+        <div class="pub-item" data-tags="Fracture & Rocks" data-year="2019" data-search="experimental study of the prepeak cyclic shear mechanical behaviors of artificial rock joints with multiscale asperities miaomiao kou, xinrong liu, shangding tang, <strong>yunteng wang*</strong> soil dynamics and earthquake engineering 2019">
+          <div class="pub-year">2019</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.soildyn.2019.01.026" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Experimental study of the prepeak cyclic shear mechanical behaviors of artificial rock joints with multiscale asperities
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Miaomiao Kou, Xinrong Liu, Shangding Tang, <strong>Yunteng Wang*</strong></p>
+            <p class="pub-journal">Soil Dynamics and Earthquake Engineering</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.soildyn.2019.01.026" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Experimental%20study%20of%20the%20prepeak%20cyclic%20shear%20mechanical%20behaviors%20of%20artificial%20rock%20joints%20with%20multiscale%20asperities" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 29 (2019) -->
+        <div class="pub-item" data-tags="Fracture & Rocks" data-year="2019" data-search="dynamic fracture instability in brittle materials: insights from dem simulations miaomiao kou, dongchen han, congcong xiao, <strong>yunteng wang*</strong> structural engineering and mechanics 2019">
+          <div class="pub-year">2019</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.12989/sem.2019.71.1.065" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Dynamic fracture instability in brittle materials: Insights from DEM simulations
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Miaomiao Kou, Dongchen Han, Congcong Xiao, <strong>Yunteng Wang*</strong></p>
+            <p class="pub-journal">STRUCTURAL ENGINEERING AND MECHANICS</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.12989/sem.2019.71.1.065" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Dynamic%20fracture%20instability%20in%20brittle%20materials%3A%20Insights%20from%20DEM%20simulations" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 30 (2018) -->
+        <div class="pub-item" data-tags="Computational Mechanics" data-year="2018" data-search="three-dimensional numerical study on the failure characteristics of intermittent fissures under compressive-shear loads <strong>yunteng wang*</strong>, xiaoping zhou, miaomiao kou acta geotechnica 2018">
+          <div class="pub-year">2018</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1007/s11440-018-0709-7" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Three-dimensional numerical study on the failure characteristics of intermittent fissures under compressive-shear loads
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors"><strong>Yunteng Wang*</strong>, Xiaoping Zhou, Miaomiao Kou</p>
+            <p class="pub-journal">Acta Geotechnica</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1007/s11440-018-0709-7" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Three-dimensional%20numerical%20study%20on%20the%20failure%20characteristics%20of%20intermittent%20fissures%20under%20compressive-shear%20loads" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Computational Mechanics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 31 (2018) -->
+        <div class="pub-item" data-tags="Computational Mechanics" data-year="2018" data-search="fracturing behavior study of three-flawed specimens by uniaxial compression and 3d digital image correlation: sensitivity to brittleness xiaoping zhou, <strong>yunteng wang*</strong>, jian‐zhi zhang, fei-nan liu rock mechanics and rock engineering 2018">
+          <div class="pub-year">2018</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1007/s00603-018-1600-4" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Fracturing Behavior Study of Three-Flawed Specimens by Uniaxial Compression and 3D Digital Image Correlation: Sensitivity to Brittleness
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Xiaoping Zhou, <strong>Yunteng Wang*</strong>, Jian‐Zhi Zhang, Fei-Nan Liu</p>
+            <p class="pub-journal">Rock Mechanics and Rock Engineering</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1007/s00603-018-1600-4" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Fracturing%20Behavior%20Study%20of%20Three-Flawed%20Specimens%20by%20Uniaxial%20Compression%20and%203D%20Digital%20Image%20Correlation%3A%20Sensitivity%20to%20Brittleness" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Computational Mechanics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 32 (2018) -->
+        <div class="pub-item" data-tags="Peridynamics Fracture & Rocks" data-year="2018" data-search="an improved coupled thermo-mechanic bond-based peridynamic model for cracking behaviors in brittle solids subjected to thermal shocks <strong>yunteng wang*</strong>, xiaoping zhou, miaomiao kou european journal of mechanics - a/solids 2018">
+          <div class="pub-year">2018</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.euromechsol.2018.09.007" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                An improved coupled thermo-mechanic bond-based peridynamic model for cracking behaviors in brittle solids subjected to thermal shocks
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors"><strong>Yunteng Wang*</strong>, Xiaoping Zhou, Miaomiao Kou</p>
+            <p class="pub-journal">European Journal of Mechanics - A/Solids</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.euromechsol.2018.09.007" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=An%20improved%20coupled%20thermo-mechanic%20bond-based%20peridynamic%20model%20for%20cracking%20behaviors%20in%20brittle%20solids%20subjected%20to%20thermal%20shocks" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Peridynamics</span><span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 33 (2018) -->
+        <div class="pub-item" data-tags="Fracture & Rocks" data-year="2018" data-search="numerical studies on thermal shock crack branching instability in brittle solids <strong>yunteng wang*</strong>, xiaoping zhou, miaomiao kou engineering fracture mechanics 2018">
+          <div class="pub-year">2018</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.engfracmech.2018.08.028" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Numerical studies on thermal shock crack branching instability in brittle solids
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors"><strong>Yunteng Wang*</strong>, Xiaoping Zhou, Miaomiao Kou</p>
+            <p class="pub-journal">Engineering Fracture Mechanics</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.engfracmech.2018.08.028" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Numerical%20studies%20on%20thermal%20shock%20crack%20branching%20instability%20in%20brittle%20solids" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 34 (2018) -->
+        <div class="pub-item" data-tags="Peridynamics" data-year="2018" data-search="peridynamic investigation on thermal fracturing behavior of ceramic nuclear fuel pellets under power cycles <strong>yunteng wang*</strong>, xiaoping zhou, miaomiao kou ceramics international 2018">
+          <div class="pub-year">2018</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.ceramint.2018.03.214" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Peridynamic investigation on thermal fracturing behavior of ceramic nuclear fuel pellets under power cycles
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors"><strong>Yunteng Wang*</strong>, Xiaoping Zhou, Miaomiao Kou</p>
+            <p class="pub-journal">Ceramics International</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.ceramint.2018.03.214" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Peridynamic%20investigation%20on%20thermal%20fracturing%20behavior%20of%20ceramic%20nuclear%20fuel%20pellets%20under%20power%20cycles" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Peridynamics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 35 (2018) -->
+        <div class="pub-item" data-tags="Computational Mechanics" data-year="2018" data-search="quasi-static fracturing in double-flawed specimens under uniaxial loading: the role of strain rate jian‐zhi zhang, xiaoping zhou, jiayi zhu, chao xian, <strong>yunteng wang*</strong> international journal of fracture 2018">
+          <div class="pub-year">2018</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1007/s10704-018-0277-8" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Quasi-static fracturing in double-flawed specimens under uniaxial loading: the role of strain rate
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Jian‐Zhi Zhang, Xiaoping Zhou, Jiayi Zhu, Chao Xian, <strong>Yunteng Wang*</strong></p>
+            <p class="pub-journal">International Journal of Fracture</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1007/s10704-018-0277-8" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Quasi-static%20fracturing%20in%20double-flawed%20specimens%20under%20uniaxial%20loading%3A%20the%20role%20of%20strain%20rate" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Computational Mechanics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 36 (2018) -->
+        <div class="pub-item" data-tags="Peridynamics Fracture & Rocks" data-year="2018" data-search="a coupled thermo-mechanical bond-based peridynamics for simulating thermal cracking in rocks <strong>yunteng wang*</strong>, xiaoping zhou, miaomiao kou international journal of fracture 2018">
+          <div class="pub-year">2018</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1007/s10704-018-0273-z" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                A coupled thermo-mechanical bond-based peridynamics for simulating thermal cracking in rocks
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors"><strong>Yunteng Wang*</strong>, Xiaoping Zhou, Miaomiao Kou</p>
+            <p class="pub-journal">International Journal of Fracture</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1007/s10704-018-0273-z" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=A%20coupled%20thermo-mechanical%20bond-based%20peridynamics%20for%20simulating%20thermal%20cracking%20in%20rocks" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Peridynamics</span><span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 37 (2017) -->
+        <div class="pub-item" data-tags="Peridynamics Fracture & Rocks" data-year="2017" data-search="a 3-d conjugated bond-pair-based peridynamic formulation for initiation and propagation of cracks in brittle solids <strong>yunteng wang*</strong>, xiaoping zhou, yuan wang, yundong shou international journal of solids and structures 2017">
+          <div class="pub-year">2017</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.ijsolstr.2017.10.022" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                A 3-D conjugated bond-pair-based peridynamic formulation for initiation and propagation of cracks in brittle solids
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors"><strong>Yunteng Wang*</strong>, Xiaoping Zhou, Yuan Wang, Yundong Shou</p>
+            <p class="pub-journal">International Journal of Solids and Structures</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.ijsolstr.2017.10.022" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=A%203-D%20conjugated%20bond-pair-based%20peridynamic%20formulation%20for%20initiation%20and%20propagation%20of%20cracks%20in%20brittle%20solids" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Peridynamics</span><span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 38 (2017) -->
+        <div class="pub-item" data-tags="Peridynamics Fracture & Rocks" data-year="2017" data-search="a novel conjugated bond linear elastic model in bond-based peridynamics for fracture problems under dynamic loads xiaoping zhou, <strong>yunteng wang*</strong>, yundong shou, miaomiao kou engineering fracture mechanics 2017">
+          <div class="pub-year">2017</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.engfracmech.2017.07.031" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                A novel conjugated bond linear elastic model in bond-based peridynamics for fracture problems under dynamic loads
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Xiaoping Zhou, <strong>Yunteng Wang*</strong>, Yundong Shou, Miaomiao Kou</p>
+            <p class="pub-journal">Engineering Fracture Mechanics</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.engfracmech.2017.07.031" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=A%20novel%20conjugated%20bond%20linear%20elastic%20model%20in%20bond-based%20peridynamics%20for%20fracture%20problems%20under%20dynamic%20loads" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Peridynamics</span><span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 39 (2017) -->
+        <div class="pub-item" data-tags="Peridynamics Fracture & Rocks" data-year="2017" data-search="the modeling of crack propagation and coalescence in rocks under uniaxial compression using the novel conjugated bond-based peridynamics <strong>yunteng wang*</strong>, xiaoping zhou, yundong shou international journal of mechanical sciences 2017">
+          <div class="pub-year">2017</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.ijmecsci.2017.05.019" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                The modeling of crack propagation and coalescence in rocks under uniaxial compression using the novel conjugated bond-based peridynamics
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors"><strong>Yunteng Wang*</strong>, Xiaoping Zhou, Yundong Shou</p>
+            <p class="pub-journal">International Journal of Mechanical Sciences</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.ijmecsci.2017.05.019" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=The%20modeling%20of%20crack%20propagation%20and%20coalescence%20in%20rocks%20under%20uniaxial%20compression%20using%20the%20novel%20conjugated%20bond-based%20peridynamics" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Peridynamics</span><span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 40 (2016) -->
+        <div class="pub-item" data-tags="Fracture & Rocks Geotechnics" data-year="2016" data-search="two-dimensional stability assessment of rock slopes based on random field xiaocheng huang, xiao-ping zhou, wenxiao ma, yong niu, <strong>yunteng wang*</strong> international journal of geomechanics 2016">
+          <div class="pub-year">2016</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1061/(asce)gm.1943-5622.0000858" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Two-Dimensional Stability Assessment of Rock Slopes Based on Random Field
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Xiaocheng Huang, Xiao-Ping Zhou, Wenxiao Ma, Yong Niu, <strong>Yunteng Wang*</strong></p>
+            <p class="pub-journal">International Journal of Geomechanics</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1061/(asce)gm.1943-5622.0000858" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Two-Dimensional%20Stability%20Assessment%20of%20Rock%20Slopes%20Based%20on%20Random%20Field" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Fracture & Rocks</span><span class="pub-tag">Geotechnics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 41 (2016) -->
+        <div class="pub-item" data-tags="Peridynamics Fracture & Rocks" data-year="2016" data-search="numerical simulation of crack propagation and coalescence in pre-cracked rock-like brazilian disks using the non-ordinary state-based peridynamics xiaoping zhou, <strong>yunteng wang*</strong> international journal of rock mechanics and mining sciences 2016">
+          <div class="pub-year">2016</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.ijrmms.2016.09.010" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Numerical simulation of crack propagation and coalescence in pre-cracked rock-like Brazilian disks using the non-ordinary state-based peridynamics
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Xiaoping Zhou, <strong>Yunteng Wang*</strong></p>
+            <p class="pub-journal">International Journal of Rock Mechanics and Mining Sciences</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.ijrmms.2016.09.010" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Numerical%20simulation%20of%20crack%20propagation%20and%20coalescence%20in%20pre-cracked%20rock-like%20Brazilian%20disks%20using%20the%20non-ordinary%20state-based%20peridynamics" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Peridynamics</span><span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 42 (2016) -->
+        <div class="pub-item" data-tags="Peridynamics Fracture & Rocks" data-year="2016" data-search="numerical simulation of crack curving and branching in brittle materials under dynamic loads using the extended non-ordinary state-based peridynamics xiaoping zhou, <strong>yunteng wang*</strong>, qihu qian european journal of mechanics - a/solids 2016">
+          <div class="pub-year">2016</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.euromechsol.2016.08.009" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Numerical simulation of crack curving and branching in brittle materials under dynamic loads using the extended non-ordinary state-based peridynamics
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Xiaoping Zhou, <strong>Yunteng Wang*</strong>, Qihu Qian</p>
+            <p class="pub-journal">European Journal of Mechanics - A/Solids</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.euromechsol.2016.08.009" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Numerical%20simulation%20of%20crack%20curving%20and%20branching%20in%20brittle%20materials%20under%20dynamic%20loads%20using%20the%20extended%20non-ordinary%20state-based%20peridynamics" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Peridynamics</span><span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 43 (2016) -->
+        <div class="pub-item" data-tags="Peridynamics Fracture & Rocks" data-year="2016" data-search="numerical simulation of propagation and coalescence of flaws in rock materials under compressive loads using the extended non-ordinary state-based peridynamics <strong>yunteng wang*</strong>, xiaoping zhou, xiao xu engineering fracture mechanics 2016">
+          <div class="pub-year">2016</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.engfracmech.2016.06.013" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Numerical simulation of propagation and coalescence of flaws in rock materials under compressive loads using the extended non-ordinary state-based peridynamics
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors"><strong>Yunteng Wang*</strong>, Xiaoping Zhou, Xiao Xu</p>
+            <p class="pub-journal">Engineering Fracture Mechanics</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.engfracmech.2016.06.013" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Numerical%20simulation%20of%20propagation%20and%20coalescence%20of%20flaws%20in%20rock%20materials%20under%20compressive%20loads%20using%20the%20extended%20non-ordinary%20state-based%20peridynamics" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Peridynamics</span><span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 44 (2016) -->
+        <div class="pub-item" data-tags="Peridynamics Fracture & Rocks" data-year="2016" data-search="numerical simulation of initiation, propagation and coalescence of cracks using the non-ordinary state-based peridynamics xiaoping zhou, <strong>yunteng wang*</strong>, xiaomin xu international journal of fracture 2016">
+          <div class="pub-year">2016</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1007/s10704-016-0126-6" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Numerical simulation of initiation, propagation and coalescence of cracks using the non-ordinary state-based peridynamics
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Xiaoping Zhou, <strong>Yunteng Wang*</strong>, Xiaomin Xu</p>
+            <p class="pub-journal">International Journal of Fracture</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1007/s10704-016-0126-6" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Numerical%20simulation%20of%20initiation%2C%20propagation%20and%20coalescence%20of%20cracks%20using%20the%20non-ordinary%20state-based%20peridynamics" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Peridynamics</span><span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 45 (2015) -->
+        <div class="pub-item" data-tags="Fracture & Rocks" data-year="2015" data-search="numerical simulations of propagation, bifurcation and coalescence of cracks in rocks xiaoping zhou, xin-bao gu, <strong>yunteng wang*</strong> international journal of rock mechanics and mining sciences 2015">
+          <div class="pub-year">2015</div>
+          <div class="pub-details">
+            <h4 class="pub-title">
+              <a href="https://doi.org/10.1016/j.ijrmms.2015.09.006" target="_blank" rel="noopener noreferrer" class="pub-title-link">
+                Numerical simulations of propagation, bifurcation and coalescence of cracks in rocks
+                <span class="external-icon">↗</span>
+              </a>
+            </h4>
+            <p class="pub-authors">Xiaoping Zhou, Xin-Bao Gu, <strong>Yunteng Wang*</strong></p>
+            <p class="pub-journal">International Journal of Rock Mechanics and Mining Sciences</p>
+            <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.ijrmms.2015.09.006" target="_blank" rel="noopener noreferrer" class="pub-action-btn">
+                <span>📄 Publisher / DOI</span>
+              </a>
+              <a href="https://scholar.google.com/scholar?q=Numerical%20simulations%20of%20propagation%2C%20bifurcation%20and%20coalescence%20of%20cracks%20in%20rocks" target="_blank" rel="noopener noreferrer" class="pub-action-btn pub-scholar-btn">
+                <span>🎓 Google Scholar</span>
+              </a>
+            </div>
+            <div class="pub-tags">
+              <span class="pub-tag">Fracture & Rocks</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section (Clickable Cards with Modal Profiles) -->
+  <section class="section" id="team">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Team</span>
+        <h2 class="section-title">Specialized Research Group</h2>
+        <p class="section-desc">
+          Postdoctoral fellows and doctoral candidates specializing in computational civil and geotechnical engineering. <strong>Click any member card to view their research topics &amp; published papers!</strong>
+        </p>
+      </div>
+
+      <div id="team-container">
+        <!-- Postdocs -->
+        <div class="team-subgroup">
+          <div class="team-subgroup-header">
+            <h3 class="team-group-title">Three Postdoctoral Fellows</h3>
+            <span class="team-count">3 Researchers &bull; Click to view publications</span>
+          </div>
+          <div class="member-grid">
+            <!-- Sijia Liu -->
+            <div class="member-card clickable-member" data-member="sijia-liu">
+              <div class="member-click-hint">Click for Papers ↗</div>
+              <div class="member-photo-wrapper">
+                <img src="images/sijia_liu.png" alt="Dr. Sijia Liu" class="member-photo">
+                <span class="member-badge">Postdoc</span>
+              </div>
+              <div class="member-info">
+                <h4 class="member-name">Dr. Sijia Liu</h4>
+                <p class="member-role">Postdoctoral Fellow</p>
+                <p class="member-affil">Civil / Geotechnical Engineering</p>
+                <p class="member-topic">Phase-field modeling of frictional fracture, nonlocal mechanics (JMPS / IJP / CMAME)</p>
+              </div>
+            </div>
+
+            <!-- Guanglei Zhou -->
+            <div class="member-card clickable-member" data-member="guanglei-zhou">
+              <div class="member-click-hint">Click for Papers ↗</div>
+              <div class="member-photo-wrapper">
+                <img src="images/guanglei_zhou.png" alt="Dr. Guanglei Zhou" class="member-photo">
+                <span class="member-badge">Postdoc</span>
+              </div>
+              <div class="member-info">
+                <h4 class="member-name">Dr. Guanglei Zhou</h4>
+                <p class="member-role">Postdoctoral Fellow</p>
+                <p class="member-affil">Civil / Geotechnical Engineering</p>
+                <p class="member-topic">THM coupled processes, creep deformation and underground energy storage</p>
+              </div>
+            </div>
+
+            <!-- Lingfeng Guo -->
+            <div class="member-card clickable-member" data-member="lingfeng-guo">
+              <div class="member-click-hint">Click for Papers ↗</div>
+              <div class="member-photo-wrapper">
+                <img src="images/lingfeng_guo.png" alt="Dr. Lingfeng Guo" class="member-photo">
+                <span class="member-badge">Postdoc</span>
+              </div>
+              <div class="member-info">
+                <h4 class="member-name">Dr. Lingfeng Guo</h4>
+                <p class="member-role">Postdoctoral Fellow</p>
+                <p class="member-affil">Civil / Geotechnical Engineering</p>
+                <p class="member-topic">Peridynamic formulations, multiscale granular mechanics (IJP / Acta Geotechnica)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PhD Candidates -->
+        <div class="team-subgroup" style="margin-top: 3rem;">
+          <div class="team-subgroup-header">
+            <h3 class="team-group-title">Four PhD Students</h3>
+            <span class="team-count">4 Doctoral Candidates &bull; Click to view research &amp; papers</span>
+          </div>
+          <div class="member-grid phd-grid">
+            <!-- Jiaxin Liu -->
+            <div class="member-card clickable-member" data-member="jiaxin-liu">
+              <div class="member-click-hint">Click for Bio ↗</div>
+              <div class="member-photo-wrapper">
+                <img src="images/jiaxin_liu.png" alt="Jiaxin Liu" class="member-photo">
+                <span class="member-badge" style="background:#0f172a;">PhD</span>
+              </div>
+              <div class="member-info">
+                <h4 class="member-name">Jiaxin Liu</h4>
+                <p class="member-role">PhD Candidate &amp; Project Staff</p>
+                <p class="member-affil">Civil / Geotechnical Engineering</p>
+                <p class="member-topic">Progressive failure in scaly clay and slope instability modeling (FWF Project)</p>
+              </div>
+            </div>
+
+            <!-- Xinying Han -->
+            <div class="member-card clickable-member" data-member="xinying-han">
+              <div class="member-click-hint">Click for Bio ↗</div>
+              <div class="member-photo-wrapper">
+                <img src="images/xinying_han.png" alt="Xinying Han" class="member-photo">
+                <span class="member-badge" style="background:#0f172a;">PhD</span>
+              </div>
+              <div class="member-info">
+                <h4 class="member-name">Xinying Han</h4>
+                <p class="member-role">PhD Candidate</p>
+                <p class="member-affil">Civil / Geotechnical Engineering</p>
+                <p class="member-topic">Desiccation cracking and phase-field modeling in unsaturated soils</p>
+              </div>
+            </div>
+
+            <!-- Xin Liu -->
+            <div class="member-card clickable-member" data-member="xin-liu">
+              <div class="member-click-hint">Click for Papers ↗</div>
+              <div class="member-photo-wrapper">
+                <img src="images/xin_liu.png" alt="Xin Liu" class="member-photo">
+                <span class="member-badge" style="background:#0f172a;">PhD</span>
+              </div>
+              <div class="member-info">
+                <h4 class="member-name">Xin Liu</h4>
+                <p class="member-role">PhD Candidate</p>
+                <p class="member-affil">Civil / Geotechnical Engineering</p>
+                <p class="member-topic">Wellbore integrity &amp; phase-field hydro-mechanical modeling (IJRMMS 2026)</p>
+              </div>
+            </div>
+
+            <!-- Open Position -->
+            <div class="member-card">
+              <div class="member-photo-wrapper">
+                <img src="images/phd_open.png" alt="Open Position" class="member-photo">
+                <span class="member-badge" style="background:#0f172a;">Open</span>
+              </div>
+              <div class="member-info">
+                <h4 class="member-name">Open Position (TBD)</h4>
+                <p class="member-role">PhD Candidate / Researcher</p>
+                <p class="member-affil">Civil / Geotechnical Engineering</p>
+                <p class="member-topic">Computational geomechanics / Peridynamics (Open for applications)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Member Profile Modal (Pop-up Window) -->
+  <div class="member-modal-overlay" id="member-modal-overlay">
+    <div class="member-modal-container">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div id="modal-content-body">
+        <!-- Rendered dynamically by main.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- News Section -->
+  <section class="section section-alt" id="news">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Updates</span>
+        <h2 class="section-title">Latest Group News</h2>
+        <p class="section-desc">
+          Recent research accomplishments, project grants, paper acceptances, and group announcements.
+        </p>
+      </div>
+
+      <div class="news-grid">
+        <div class="news-card">
+          <div class="news-meta">
+            <span class="news-date">2026</span>
+            <span class="news-badge">Group Update</span>
+          </div>
+          <p class="news-text">Wang's Computational Geomechanics Research Group expands with 3 Postdoctoral Fellows and 4 PhD Candidates dedicated to computational civil and geomechanics.</p>
+        </div>
+
+        <div class="news-card">
+          <div class="news-meta">
+            <span class="news-date">2025</span>
+            <span class="news-badge">Paper in IJP</span>
+          </div>
+          <p class="news-text">Our work on thermodynamically consistent phase-field modeling of frictional fracture in rocks is published in International Journal of Plasticity (Sijia Liu &amp; Yunteng Wang et al.).</p>
+        </div>
+
+        <div class="news-card">
+          <div class="news-meta">
+            <span class="news-date">2024</span>
+            <span class="news-badge">Springer Book</span>
+          </div>
+          <p class="news-text">The Springer monograph 'Recent Geotechnical Research at BOKU' co-edited by Prof. Wei Wu and Dr. Yunteng Wang has been officially released.</p>
+        </div>
+
+        <div class="news-card">
+          <div class="news-meta">
+            <span class="news-date">2024</span>
+            <span class="news-badge">Award</span>
+          </div>
+          <p class="news-text">Dr. Yunteng Wang received the prestigious BOKU Best Paper Award from the Anniversary Fund of the City of Vienna.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Openings & Join Us -->
+  <section class="section" id="openings">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Opportunities</span>
+        <h2 class="section-title">Join Our Group</h2>
+        <p class="section-desc">
+          We welcome enthusiastic students and visiting scholars in civil and geotechnical engineering to join our research efforts in Vienna.
+        </p>
+      </div>
+
+      <div class="openings-box">
+        <div class="opening-item">
+          <h4 class="opening-title">
+            PhD Candidate Positions (Computational Geomechanics)
+            <span class="opening-type">Fully Funded / CSC Candidates Welcome</span>
+          </h4>
+          <p class="opening-desc">We are seeking motivated graduate students with background in Civil Engineering, Computational Mechanics, or Rock/Soil Mechanics. Research focuses on Peridynamics and Phase-Field fracture modeling.</p>
+        </div>
+
+        <div class="opening-item">
+          <h4 class="opening-title">
+            Postdoctoral &amp; Visiting Scholar Fellowship
+            <span class="opening-type">FWF / International Mobility</span>
+          </h4>
+          <p class="opening-desc">Researchers interested in nonlocal continuum mechanics, THM coupled phase-field modeling, or particle methods are warmly invited to contact Dr. Yunteng Wang.</p>
+        </div>
+      </div>
+
+      <!-- Contact Block -->
+      <div class="contact-layout" id="contact">
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <p>
+            Interested in PhD positions, joint research, or academic visits? Feel free to contact Dr. Yunteng Wang via email or visit our institute in Vienna.
+          </p>
+          <ul class="contact-details">
+            <li><strong>Affiliation:</strong> Institute of Geotechnical Engineering (IGT), BOKU</li>
+            <li><strong>Address:</strong> Muthgasse 107, 1190 Vienna, Austria</li>
+            <li><strong>Email:</strong> yunteng.wang@boku.ac.at</li>
+            <li><strong>University:</strong> BOKU University (Universität für Bodenkultur Wien)</li>
+          </ul>
+        </div>
+        <div style="display:flex; flex-direction:column; justify-content:center; background:rgba(255,255,255,0.05); padding:2rem; border-radius:12px; border:1px solid rgba(255,255,255,0.1);">
+          <h4 style="color:#a7f3d0; margin-bottom: 0.75rem;">Vienna - Academic Excellence &amp; Livability</h4>
+          <p style="font-size:0.9rem; color:#94a3b8; line-height:1.6;">
+            BOKU University is located in Vienna, Austria. Our group offers state-of-the-art computational facilities, high-performance computing clusters, and a collaborative international atmosphere.
+          </p>
+          <div style="margin-top: 1.5rem;">
+            <a href="mailto:yunteng.wang@boku.ac.at" class="btn btn-primary" style="display:inline-block;">Send an Inquiry</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Wang's Geomechanics Lab &bull; Institute of Geotechnical Engineering &bull; BOKU Vienna</p>
+      <p>Designed for academic excellence &bull; Powered by clean static architecture</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
+</body>
+</html>

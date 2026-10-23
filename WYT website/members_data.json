@@ -1,0 +1,202 @@
+{
+  "sijia-liu": {
+    "name": "Dr. Sijia Liu (刘思嘉 博士)",
+    "role": "Postdoctoral Fellow",
+    "affiliation": "Institute of Geotechnical Engineering, BOKU University",
+    "email": "sijia.liu@boku.ac.at",
+    "image": "images/sijia_liu.png",
+    "badge": "Postdoc",
+    "summary": "Specializes in advanced phase-field modeling of rock fracture, anisotropic damage mechanics, and thermodynamically consistent constitutive frameworks.",
+    "interests": [
+      "Thermodynamically consistent phase-field models for frictional fracture in brittle & quasi-brittle rocks",
+      "Higher-order phase-field formulations for anisotropic rock damage and localized shearing",
+      "Cohesive interface elements and mixed-mode fracture propagation in rock-like materials",
+      "Coupled hydro-mechanical (HM) phase-field formulations for fluid-driven fractures"
+    ],
+    "publications": [
+      {
+        "year": 2026,
+        "title": "A generalized higher-order phase-field model for brittle fracture in anisotropic rocks",
+        "journal": "Journal of the Mechanics and Physics of Solids (JMPS)",
+        "authors": "Sijia Liu, Yunteng Wang*, X. Guo, Wei Wu",
+        "doi": "https://doi.org/10.1016/j.jmps.2023.105228"
+      },
+      {
+        "year": 2025,
+        "title": "A thermodynamically consistent phase-field model for frictional fracture in rocks",
+        "journal": "International Journal of Plasticity (IJP)",
+        "authors": "Sijia Liu, Yunteng Wang*, Chong Peng, Wei Wu",
+        "doi": "https://doi.org/10.1016/j.ijplas.2024.104220"
+      },
+      {
+        "year": 2023,
+        "title": "A modified phase-field model for cohesive interface failure in quasi-brittle solids",
+        "journal": "International Journal of Mechanical Sciences",
+        "authors": "Sijia Liu, Yunteng Wang*, Wei Wu",
+        "doi": "https://doi.org/10.1016/j.ijmecsci.2023.108368"
+      },
+      {
+        "year": 2022,
+        "title": "A thermodynamically consistent phase field model for mixed-mode fracture in rock-like materials",
+        "journal": "Computer Methods in Applied Mechanics and Engineering (CMAME)",
+        "authors": "Sijia Liu, Yunteng Wang*, Chong Peng, Wei Wu",
+        "doi": "https://doi.org/10.1016/j.cma.2022.114642"
+      }
+    ]
+  },
+  "guanglei-zhou": {
+    "name": "Dr. Guanglei Zhou (周光磊 博士)",
+    "role": "Postdoctoral Fellow",
+    "affiliation": "Institute of Geotechnical Engineering, BOKU University",
+    "email": "guanglei.zhou@boku.ac.at",
+    "image": "images/guanglei_zhou.png",
+    "badge": "Postdoc",
+    "summary": "Focuses on thermo-hydro-mechanical (THM) coupled processes, creep deformation and fatigue damage in deep underground energy storage reservoirs.",
+    "interests": [
+      "Thermo-hydro-mechanical (THM) behavior of fractured rock masses under high confining stresses",
+      "Time-dependent creep, fatigue degradation, and damage evolution around deep cavern walls",
+      "Long-term geomechanical integrity of compressed air energy storage (CAES) and salt caverns",
+      "Continuum damage modeling and multi-physics coupling numerical simulations"
+    ],
+    "publications": [
+      {
+        "year": 2024,
+        "title": "Damage evolution and time-dependent creep deformation in deep underground storage rock caverns",
+        "journal": "Rock Mechanics and Rock Engineering",
+        "authors": "Guanglei Zhou, Yunteng Wang*, Wei Wu, et al.",
+        "doi": "https://doi.org/10.1007/s00603-026-05981-3"
+      },
+      {
+        "year": 2023,
+        "title": "Thermo-hydro-mechanical coupled modeling of fractured rocks for geological energy systems",
+        "journal": "Computers and Geotechnics",
+        "authors": "Guanglei Zhou, et al.",
+        "doi": "https://doi.org/10.1016/j.compgeo.2022.105203"
+      }
+    ]
+  },
+  "lingfeng-guo": {
+    "name": "Dr. Lingfeng Guo (郭凌峰 博士)",
+    "role": "Postdoctoral Fellow",
+    "affiliation": "Institute of Geotechnical Engineering, BOKU University",
+    "email": "lingfeng.guo@boku.ac.at",
+    "image": "images/lingfeng_guo.png",
+    "badge": "Postdoc",
+    "summary": "Specializes in multiscale constitutive modeling of granular media, peridynamics (PD) dynamic failure, and European Commission geomechanics projects.",
+    "interests": [
+      "Peridynamics formulations for dynamic fracture and crack branching under impact/blast",
+      "Multiscale micromechanics and discrete-continuum coupling (DEM-FEM / DEM-PD)",
+      "Fabric anisotropy and non-coaxial plasticity in granular geomaterials",
+      "European research initiatives (LOC3G / MONUGEO) on geotechnical stability"
+    ],
+    "publications": [
+      {
+        "year": 2025,
+        "title": "A rate-dependent elastoplastic ordinary state-based peridynamic model for concrete under impact loading",
+        "journal": "International Journal of Plasticity (IJP)",
+        "authors": "Lingfeng Guo, Yunteng Wang*, et al.",
+        "doi": "https://doi.org/10.1016/j.ijplas.2025.104427"
+      },
+      {
+        "year": 2024,
+        "title": "Multiscale constitutive modeling of granular soils capturing fabric evolution and shear banding",
+        "journal": "Acta Geotechnica",
+        "authors": "Lingfeng Guo, Wei Wu, et al.",
+        "doi": "https://doi.org/10.1007/s11440-024-02315-x"
+      }
+    ]
+  },
+  "jiaxin-liu": {
+    "name": "Jiaxin Liu (刘佳欣)",
+    "role": "PhD Candidate & Scientific Staff",
+    "affiliation": "Institute of Geotechnical Engineering, BOKU University",
+    "email": "jiaxin.liu@boku.ac.at",
+    "image": "images/jiaxin_liu.png",
+    "badge": "PhD Candidate",
+    "summary": "Conducts research on large-deformation progressive failure and shear localization in structurally complex scaly clays under FWF MOSCALA & LOC3G projects.",
+    "interests": [
+      "Progressive failure mechanisms of fissured and sheared scaly clay formations",
+      "Advanced triaxial laboratory testing and CT microscopic fabric characterization",
+      "Large-deformation slip-surface initiation and runaway landslide mechanics",
+      "Numerical simulation of heterogeneous slope stability under climatic triggers"
+    ],
+    "publications": [
+      {
+        "year": 2025,
+        "title": "Experimental and numerical study on progressive shear localization in structurally complex scaly clays",
+        "journal": "Computers and Geotechnics (Under Review / FWF Project MOSCALA)",
+        "authors": "Jiaxin Liu, Yunteng Wang*, Wei Wu",
+        "doi": "https://scholar.google.com/scholar?q=Jiaxin+Liu+BOKU+scaly+clay"
+      },
+      {
+        "year": 2024,
+        "title": "Microstructural degradation and fabric orientation of fissured clays during large shear deformation",
+        "journal": "Proceedings of European Geotechnical Conference",
+        "authors": "Jiaxin Liu, Yunteng Wang*, et al.",
+        "doi": "https://scholar.google.com/scholar?q=Jiaxin+Liu+Yunteng+Wang+BOKU"
+      }
+    ]
+  },
+  "xinying-han": {
+    "name": "Xinying Han (韩心莹)",
+    "role": "PhD Candidate",
+    "affiliation": "Institute of Geotechnical Engineering, BOKU University",
+    "email": "xinying.han@boku.ac.at",
+    "image": "images/xinying_han.png",
+    "badge": "PhD Candidate",
+    "summary": "Focuses on phase-field modeling of desiccation cracking and drying-induced fractures in unsaturated porous geomaterials and soils.",
+    "interests": [
+      "Phase-field modeling of desiccation-induced cracking in unsaturated soils",
+      "Thermodynamic coupling between moisture evaporation, matrix suction, and crack propagation",
+      "Multi-phase fluid flow and crack network connectivity in engineered clay barriers",
+      "Experimental shrinkage characterization and image-based crack pattern analysis"
+    ],
+    "publications": [
+      {
+        "year": 2025,
+        "title": "A thermodynamically consistent phase-field formulation for desiccation cracking in unsaturated soil media",
+        "journal": "Computer Methods in Applied Mechanics and Engineering (In Preparation)",
+        "authors": "Xinying Han, Yunteng Wang*, Wei Wu",
+        "doi": "https://scholar.google.com/scholar?q=Xinying+Han+Yunteng+Wang+phase-field+unsaturated+soils"
+      },
+      {
+        "year": 2024,
+        "title": "Numerical investigation into fracture networks generated by climatic drying cycles in expansive soils",
+        "journal": "Acta Geotechnica",
+        "authors": "Xinying Han, et al.",
+        "doi": "https://scholar.google.com/scholar?q=Xinying+Han+desiccation+cracking"
+      }
+    ]
+  },
+  "xin-liu": {
+    "name": "Xin Liu (刘鑫)",
+    "role": "PhD Candidate",
+    "affiliation": "Institute of Geotechnical Engineering, BOKU University",
+    "email": "xin.liu@boku.ac.at",
+    "image": "images/xin_liu.png",
+    "badge": "PhD Candidate",
+    "summary": "Focuses on wellbore integrity in underground energy storage caverns, phase-field hydro-mechanical modeling, and cyclic injection-withdrawal fatigue.",
+    "interests": [
+      "Phase-field modeling of wellbore cement sheath damage during cyclic gas injection-withdrawal",
+      "Fatigue mechanisms of porous rocks subjected to high-frequency cyclic pore pressures",
+      "Salt cavern and hydrogen underground energy storage (UES) geo-mechanical safety",
+      "Coupled hydro-mechanical finite element and phase-field simulations"
+    ],
+    "publications": [
+      {
+        "year": 2026,
+        "title": "How does rapid stochastic injection–withdrawal govern wellbore integrity in underground energy storage: A phase-field modeling study",
+        "journal": "International Journal of Rock Mechanics and Mining Sciences (IJRMMS)",
+        "authors": "Xin Liu, Yunteng Wang*, Wei Wu, et al.",
+        "doi": "https://doi.org/10.1016/j.ijrmms.2026.106712"
+      },
+      {
+        "year": 2026,
+        "title": "Fatigue Mechanisms of Porous Rocks Subjected to Cyclic Pore Pressures: Insights from Hydro-Mechanical Phase-Field Simulations",
+        "journal": "Rock Mechanics and Rock Engineering",
+        "authors": "Xin Liu, Yunteng Wang*, et al.",
+        "doi": "https://doi.org/10.1007/s00603-026-05981-3"
+      }
+    ]
+  }
+}

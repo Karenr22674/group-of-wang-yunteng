@@ -1,0 +1,517 @@
+[
+  {
+    "year": 2026,
+    "title": "Fatigue Mechanisms of Porous Rocks Subjected to Cyclic Pore Pressures: Insights from Hydro-Mechanical Phase-Field Simulations",
+    "authors": "Sijia Liu, Yunteng Wang",
+    "journal": "Rock Mechanics and Rock Engineering",
+    "doi": "https://doi.org/10.1007/s00603-026-05981-3",
+    "tags": [
+      "Phase-Field",
+      "Fracture & Rocks"
+    ],
+    "cited_by": 0
+  },
+  {
+    "year": 2026,
+    "title": "How does rapid stochastic injection–withdrawal govern wellbore integrity in underground energy storage: A phase-field modeling study",
+    "authors": "Xin Liu, Yunteng Wang, Wei Wu",
+    "journal": "International Journal of Rock Mechanics and Mining Sciences",
+    "doi": "https://doi.org/10.1016/j.ijrmms.2026.106712",
+    "tags": [
+      "Phase-Field"
+    ],
+    "cited_by": 0
+  },
+  {
+    "year": 2025,
+    "title": "A rate-dependent elastoplastic ordinary state-based peridynamic model for concrete under impact loading",
+    "authors": "Shuyu Wang, Linjuan Wang, Yunteng Wang, Fengrui Liu, Libin Zhao",
+    "journal": "International Journal of Plasticity",
+    "doi": "https://doi.org/10.1016/j.ijplas.2025.104427",
+    "tags": [
+      "Peridynamics"
+    ],
+    "cited_by": 10
+  },
+  {
+    "year": 2024,
+    "title": "A thermodynamically consistent phase-field model for frictional fracture in rocks",
+    "authors": "Sijia Liu, Yunteng Wang",
+    "journal": "International Journal of Plasticity",
+    "doi": "https://doi.org/10.1016/j.ijplas.2024.104220",
+    "tags": [
+      "Phase-Field",
+      "Fracture & Rocks"
+    ],
+    "cited_by": 40
+  },
+  {
+    "year": 2024,
+    "title": "Experimental study on Sc-CO2 fracturing of granite under real-time high temperature and true triaxial stress",
+    "authors": "Yang Yang, Dawei Hu, Haizhu Wang, Yunteng Wang, Dianbin Guo, Hui Zhou",
+    "journal": "International Journal of Rock Mechanics and Mining Sciences",
+    "doi": "https://doi.org/10.1016/j.ijrmms.2024.105889",
+    "tags": [
+      "Computational Mechanics"
+    ],
+    "cited_by": 19
+  },
+  {
+    "year": 2024,
+    "title": "Phase-field Modeling of Brittle Failure in Rockslides",
+    "authors": "Yunteng Wang, Shun Wang, Enrico Soranzo, Xiaoping Zhou, Wei Wu",
+    "journal": "Springer series in geomechanics and geoengineering",
+    "doi": "https://doi.org/10.1007/978-3-031-52159-1_16",
+    "tags": [
+      "Phase-Field",
+      "Fracture & Rocks"
+    ],
+    "cited_by": 5
+  },
+  {
+    "year": 2024,
+    "title": "Machine Learning Prediction of Bleeding of Bored Concrete Piles Based on Centrifuge Tests",
+    "authors": "Enrico Soranzo, Carlotta Guardiani, Yunteng Wang, Wei Wu",
+    "journal": "Springer series in geomechanics and geoengineering",
+    "doi": "https://doi.org/10.1007/978-3-031-52159-1_10",
+    "tags": [
+      "Computational Mechanics"
+    ],
+    "cited_by": 0
+  },
+  {
+    "year": 2024,
+    "title": "Prediction of Tunnelling-Induced Settlement Trough by Artificial Neural Networks",
+    "authors": "Enrico Soranzo, Christoph Pock, Carlotta Guardiani, Yunteng Wang, Wei Wu",
+    "journal": "Springer series in geomechanics and geoengineering",
+    "doi": "https://doi.org/10.1007/978-3-031-52159-1_9",
+    "tags": [
+      "Computational Mechanics"
+    ],
+    "cited_by": 1
+  },
+  {
+    "year": 2023,
+    "title": "A bond-level energy-based peridynamics for mixed-mode fracture in rocks",
+    "authors": "Yunteng Wang, Wei Wu",
+    "journal": "Computer Methods in Applied Mechanics and Engineering",
+    "doi": "https://doi.org/10.1016/j.cma.2023.116169",
+    "tags": [
+      "Peridynamics",
+      "Fracture & Rocks"
+    ],
+    "cited_by": 69
+  },
+  {
+    "year": 2023,
+    "title": "A modified phase-field model for cohesive interface failure in quasi-brittle solids",
+    "authors": "Sijia Liu, Yunteng Wang, Wei Wu",
+    "journal": "International Journal of Mechanical Sciences",
+    "doi": "https://doi.org/10.1016/j.ijmecsci.2023.108368",
+    "tags": [
+      "Phase-Field"
+    ],
+    "cited_by": 45
+  },
+  {
+    "year": 2023,
+    "title": "Frankenstein’s data-driven computing approach to model-free mechanics",
+    "authors": "Bram van der Heijden, Yunteng Wang, Gilles Lubineau A",
+    "journal": "Computational Mechanics",
+    "doi": "https://doi.org/10.1007/s00466-023-02307-w",
+    "tags": [
+      "Computational Mechanics"
+    ],
+    "cited_by": 1
+  },
+  {
+    "year": 2023,
+    "title": "Chemo-mechanical coupling bond-based peridynamic model for electrochemical corrosion and stress chemical corrosion",
+    "authors": "Xiaoping Zhou, Er-Bao Du, Yunteng Wang",
+    "journal": "Engineering Analysis with Boundary Elements",
+    "doi": "https://doi.org/10.1016/j.enganabound.2023.03.013",
+    "tags": [
+      "Peridynamics"
+    ],
+    "cited_by": 21
+  },
+  {
+    "year": 2023,
+    "title": "Dynamic strain localization into a compaction band via a phase-field approach",
+    "authors": "Yunteng Wang, Ronaldo I. Borja, Wei Wu",
+    "journal": "Journal of the Mechanics and Physics of Solids",
+    "doi": "https://doi.org/10.1016/j.jmps.2023.105228",
+    "tags": [
+      "Phase-Field"
+    ],
+    "cited_by": 72
+  },
+  {
+    "year": 2022,
+    "title": "Convolutional neural networks prediction of the factor of safety of random layered slopes by the strength reduction method",
+    "authors": "Enrico Soranzo, Carlotta Guardiani, Yiru Chen, Yunteng Wang, Wei Wu",
+    "journal": "Acta Geotechnica",
+    "doi": "https://doi.org/10.1007/s11440-022-01783-3",
+    "tags": [
+      "Geotechnics"
+    ],
+    "cited_by": 37
+  },
+  {
+    "year": 2022,
+    "title": "Influence of material heterogeneity on the blast-induced crack initiation and propagation in brittle rock",
+    "authors": "Shuyu Wang, Linjuan Wang, Yunteng Wang",
+    "journal": "Computers and Geotechnics",
+    "doi": "https://doi.org/10.1016/j.compgeo.2022.105203",
+    "tags": [
+      "Fracture & Rocks"
+    ],
+    "cited_by": 36
+  },
+  {
+    "year": 2022,
+    "title": "Thermo-hydro-chemo-mechanical coupling peridynamic model of fractured rock mass and its application in geothermal extraction",
+    "authors": "Xiaoping Zhou, Er-Bao Du, Yunteng Wang",
+    "journal": "Computers and Geotechnics",
+    "doi": "https://doi.org/10.1016/j.compgeo.2022.104837",
+    "tags": [
+      "Peridynamics",
+      "Fracture & Rocks"
+    ],
+    "cited_by": 88
+  },
+  {
+    "year": 2022,
+    "title": "A thermodynamically consistent phase field model for mixed-mode fracture in rock-like materials",
+    "authors": "Sijia Liu, Yunteng Wang, Chong Peng, Wei Wu",
+    "journal": "Computer Methods in Applied Mechanics and Engineering",
+    "doi": "https://doi.org/10.1016/j.cma.2022.114642",
+    "tags": [
+      "Phase-Field",
+      "Fracture & Rocks"
+    ],
+    "cited_by": 106
+  },
+  {
+    "year": 2021,
+    "title": "Machine learning approaches to rock fracture mechanics problems: Mode-I fracture toughness determination",
+    "authors": "Yunteng Wang, Xiang Zhang, Xianshan Liu",
+    "journal": "Engineering Fracture Mechanics",
+    "doi": "https://doi.org/10.1016/j.engfracmech.2021.107890",
+    "tags": [
+      "Fracture & Rocks"
+    ],
+    "cited_by": 99
+  },
+  {
+    "year": 2020,
+    "title": "State-of-the-Art Review on the Progressive Failure Characteristics of Geomaterials in Peridynamic Theory",
+    "authors": "Xiaoping Zhou, Yunteng Wang",
+    "journal": "Journal of Engineering Mechanics",
+    "doi": "https://doi.org/10.1061/(asce)em.1943-7889.0001876",
+    "tags": [
+      "Peridynamics"
+    ],
+    "cited_by": 72
+  },
+  {
+    "year": 2020,
+    "title": "Hydromechanical bond-based peridynamic model for pressurized and fluid-driven fracturing processes in fissured porous rocks",
+    "authors": "Xiaoping Zhou, Yunteng Wang, Yundong Shou",
+    "journal": "International Journal of Rock Mechanics and Mining Sciences",
+    "doi": "https://doi.org/10.1016/j.ijrmms.2020.104383",
+    "tags": [
+      "Peridynamics",
+      "Fracture & Rocks"
+    ],
+    "cited_by": 92
+  },
+  {
+    "year": 2020,
+    "title": "Study on rock fracture behavior under hydromechanical loading by 3-D digital reconstruction",
+    "authors": "Miaomiao Kou, Xinrong Liu, Yunteng Wang",
+    "journal": "STRUCTURAL ENGINEERING AND MECHANICS",
+    "doi": "https://doi.org/10.12989/sem.2020.74.2.283",
+    "tags": [
+      "Fracture & Rocks"
+    ],
+    "cited_by": 18
+  },
+  {
+    "year": 2020,
+    "title": "Peridynamic analysis of dynamic fracture behaviors in FGMs with different gradient directions",
+    "authors": "Miaomiao Kou, Jing Zhong Bi, Binhang Yuan, Yunteng Wang",
+    "journal": "STRUCTURAL ENGINEERING AND MECHANICS",
+    "doi": "https://doi.org/10.12989/sem.2020.75.3.339",
+    "tags": [
+      "Peridynamics",
+      "Fracture & Rocks"
+    ],
+    "cited_by": 5
+  },
+  {
+    "year": 2019,
+    "title": "Numerical simulations of failure characteristics of rock materials under blasting loads using the conjugated bond-pair-based peridynamics",
+    "authors": "Xiaoping Zhou, Yunteng Wang, Qihu Qian",
+    "journal": "Zhongguo kexue. Wulixue Lixue Tianwenxue",
+    "doi": "https://doi.org/10.1360/sspma-2019-0181",
+    "tags": [
+      "Peridynamics",
+      "Fracture & Rocks"
+    ],
+    "cited_by": 7
+  },
+  {
+    "year": 2019,
+    "title": "3-D X-ray computed tomography on failure characteristics of rock-like materials under coupled hydro-mechanical loading",
+    "authors": "Miaomiao Kou, Xinrong Liu, Shangding Tang, Yunteng Wang",
+    "journal": "Theoretical and Applied Fracture Mechanics",
+    "doi": "https://doi.org/10.1016/j.tafmec.2019.102396",
+    "tags": [
+      "Fracture & Rocks"
+    ],
+    "cited_by": 106
+  },
+  {
+    "year": 2019,
+    "title": "Size effect of thermal shock crack patterns in ceramics: Insights from a nonlocal numerical approach",
+    "authors": "Yunteng Wang, Xiaoping Zhou, Ting Zhang",
+    "journal": "Mechanics of Materials",
+    "doi": "https://doi.org/10.1016/j.mechmat.2019.103133",
+    "tags": [
+      "Fracture & Rocks"
+    ],
+    "cited_by": 47
+  },
+  {
+    "year": 2019,
+    "title": "Peridynamic simulation of thermal failure behaviors in rocks subjected to heating from boreholes",
+    "authors": "Yunteng Wang, Xiaoping Zhou",
+    "journal": "International Journal of Rock Mechanics and Mining Sciences",
+    "doi": "https://doi.org/10.1016/j.ijrmms.2019.03.007",
+    "tags": [
+      "Peridynamics",
+      "Fracture & Rocks"
+    ],
+    "cited_by": 106
+  },
+  {
+    "year": 2019,
+    "title": "Numerical investigations on crack propagation and crack branching in brittle solids under dynamic loading using bond-particle model",
+    "authors": "Miaomiao Kou, Y.J. Lian, Yunteng Wang",
+    "journal": "Engineering Fracture Mechanics",
+    "doi": "https://doi.org/10.1016/j.engfracmech.2019.03.012",
+    "tags": [
+      "Fracture & Rocks"
+    ],
+    "cited_by": 49
+  },
+  {
+    "year": 2019,
+    "title": "Experimental study of the prepeak cyclic shear mechanical behaviors of artificial rock joints with multiscale asperities",
+    "authors": "Miaomiao Kou, Xinrong Liu, Shangding Tang, Yunteng Wang",
+    "journal": "Soil Dynamics and Earthquake Engineering",
+    "doi": "https://doi.org/10.1016/j.soildyn.2019.01.026",
+    "tags": [
+      "Fracture & Rocks"
+    ],
+    "cited_by": 70
+  },
+  {
+    "year": 2019,
+    "title": "Dynamic fracture instability in brittle materials: Insights from DEM simulations",
+    "authors": "Miaomiao Kou, Dongchen Han, Congcong Xiao, Yunteng Wang",
+    "journal": "STRUCTURAL ENGINEERING AND MECHANICS",
+    "doi": "https://doi.org/10.12989/sem.2019.71.1.065",
+    "tags": [
+      "Fracture & Rocks"
+    ],
+    "cited_by": 9
+  },
+  {
+    "year": 2018,
+    "title": "Three-dimensional numerical study on the failure characteristics of intermittent fissures under compressive-shear loads",
+    "authors": "Yunteng Wang, Xiaoping Zhou, Miaomiao Kou",
+    "journal": "Acta Geotechnica",
+    "doi": "https://doi.org/10.1007/s11440-018-0709-7",
+    "tags": [
+      "Computational Mechanics"
+    ],
+    "cited_by": 192
+  },
+  {
+    "year": 2018,
+    "title": "Fracturing Behavior Study of Three-Flawed Specimens by Uniaxial Compression and 3D Digital Image Correlation: Sensitivity to Brittleness",
+    "authors": "Xiaoping Zhou, Yunteng Wang, Jian‐Zhi Zhang, Fei-Nan Liu",
+    "journal": "Rock Mechanics and Rock Engineering",
+    "doi": "https://doi.org/10.1007/s00603-018-1600-4",
+    "tags": [
+      "Computational Mechanics"
+    ],
+    "cited_by": 172
+  },
+  {
+    "year": 2018,
+    "title": "An improved coupled thermo-mechanic bond-based peridynamic model for cracking behaviors in brittle solids subjected to thermal shocks",
+    "authors": "Yunteng Wang, Xiaoping Zhou, Miaomiao Kou",
+    "journal": "European Journal of Mechanics - A/Solids",
+    "doi": "https://doi.org/10.1016/j.euromechsol.2018.09.007",
+    "tags": [
+      "Peridynamics",
+      "Fracture & Rocks"
+    ],
+    "cited_by": 146
+  },
+  {
+    "year": 2018,
+    "title": "Numerical studies on thermal shock crack branching instability in brittle solids",
+    "authors": "Yunteng Wang, Xiaoping Zhou, Miaomiao Kou",
+    "journal": "Engineering Fracture Mechanics",
+    "doi": "https://doi.org/10.1016/j.engfracmech.2018.08.028",
+    "tags": [
+      "Fracture & Rocks"
+    ],
+    "cited_by": 49
+  },
+  {
+    "year": 2018,
+    "title": "Peridynamic investigation on thermal fracturing behavior of ceramic nuclear fuel pellets under power cycles",
+    "authors": "Yunteng Wang, Xiaoping Zhou, Miaomiao Kou",
+    "journal": "Ceramics International",
+    "doi": "https://doi.org/10.1016/j.ceramint.2018.03.214",
+    "tags": [
+      "Peridynamics"
+    ],
+    "cited_by": 97
+  },
+  {
+    "year": 2018,
+    "title": "Quasi-static fracturing in double-flawed specimens under uniaxial loading: the role of strain rate",
+    "authors": "Jian‐Zhi Zhang, Xiaoping Zhou, Jiayi Zhu, Chao Xian, Yunteng Wang",
+    "journal": "International Journal of Fracture",
+    "doi": "https://doi.org/10.1007/s10704-018-0277-8",
+    "tags": [
+      "Computational Mechanics"
+    ],
+    "cited_by": 68
+  },
+  {
+    "year": 2018,
+    "title": "A coupled thermo-mechanical bond-based peridynamics for simulating thermal cracking in rocks",
+    "authors": "Yunteng Wang, Xiaoping Zhou, Miaomiao Kou",
+    "journal": "International Journal of Fracture",
+    "doi": "https://doi.org/10.1007/s10704-018-0273-z",
+    "tags": [
+      "Peridynamics",
+      "Fracture & Rocks"
+    ],
+    "cited_by": 151
+  },
+  {
+    "year": 2017,
+    "title": "A 3-D conjugated bond-pair-based peridynamic formulation for initiation and propagation of cracks in brittle solids",
+    "authors": "Yunteng Wang, Xiaoping Zhou, Yuan Wang, Yundong Shou",
+    "journal": "International Journal of Solids and Structures",
+    "doi": "https://doi.org/10.1016/j.ijsolstr.2017.10.022",
+    "tags": [
+      "Peridynamics",
+      "Fracture & Rocks"
+    ],
+    "cited_by": 407
+  },
+  {
+    "year": 2017,
+    "title": "A novel conjugated bond linear elastic model in bond-based peridynamics for fracture problems under dynamic loads",
+    "authors": "Xiaoping Zhou, Yunteng Wang, Yundong Shou, Miaomiao Kou",
+    "journal": "Engineering Fracture Mechanics",
+    "doi": "https://doi.org/10.1016/j.engfracmech.2017.07.031",
+    "tags": [
+      "Peridynamics",
+      "Fracture & Rocks"
+    ],
+    "cited_by": 106
+  },
+  {
+    "year": 2017,
+    "title": "The modeling of crack propagation and coalescence in rocks under uniaxial compression using the novel conjugated bond-based peridynamics",
+    "authors": "Yunteng Wang, Xiaoping Zhou, Yundong Shou",
+    "journal": "International Journal of Mechanical Sciences",
+    "doi": "https://doi.org/10.1016/j.ijmecsci.2017.05.019",
+    "tags": [
+      "Peridynamics",
+      "Fracture & Rocks"
+    ],
+    "cited_by": 266
+  },
+  {
+    "year": 2016,
+    "title": "Two-Dimensional Stability Assessment of Rock Slopes Based on Random Field",
+    "authors": "Xiaocheng Huang, Xiao-Ping Zhou, Wenxiao Ma, Yong Niu, Yunteng Wang",
+    "journal": "International Journal of Geomechanics",
+    "doi": "https://doi.org/10.1061/(asce)gm.1943-5622.0000858",
+    "tags": [
+      "Fracture & Rocks",
+      "Geotechnics"
+    ],
+    "cited_by": 37
+  },
+  {
+    "year": 2016,
+    "title": "Numerical simulation of crack propagation and coalescence in pre-cracked rock-like Brazilian disks using the non-ordinary state-based peridynamics",
+    "authors": "Xiaoping Zhou, Yunteng Wang",
+    "journal": "International Journal of Rock Mechanics and Mining Sciences",
+    "doi": "https://doi.org/10.1016/j.ijrmms.2016.09.010",
+    "tags": [
+      "Peridynamics",
+      "Fracture & Rocks"
+    ],
+    "cited_by": 194
+  },
+  {
+    "year": 2016,
+    "title": "Numerical simulation of crack curving and branching in brittle materials under dynamic loads using the extended non-ordinary state-based peridynamics",
+    "authors": "Xiaoping Zhou, Yunteng Wang, Qihu Qian",
+    "journal": "European Journal of Mechanics - A/Solids",
+    "doi": "https://doi.org/10.1016/j.euromechsol.2016.08.009",
+    "tags": [
+      "Peridynamics",
+      "Fracture & Rocks"
+    ],
+    "cited_by": 133
+  },
+  {
+    "year": 2016,
+    "title": "Numerical simulation of propagation and coalescence of flaws in rock materials under compressive loads using the extended non-ordinary state-based peridynamics",
+    "authors": "Yunteng Wang, Xiaoping Zhou, Xiao Xu",
+    "journal": "Engineering Fracture Mechanics",
+    "doi": "https://doi.org/10.1016/j.engfracmech.2016.06.013",
+    "tags": [
+      "Peridynamics",
+      "Fracture & Rocks"
+    ],
+    "cited_by": 371
+  },
+  {
+    "year": 2016,
+    "title": "Numerical simulation of initiation, propagation and coalescence of cracks using the non-ordinary state-based peridynamics",
+    "authors": "Xiaoping Zhou, Yunteng Wang, Xiaomin Xu",
+    "journal": "International Journal of Fracture",
+    "doi": "https://doi.org/10.1007/s10704-016-0126-6",
+    "tags": [
+      "Peridynamics",
+      "Fracture & Rocks"
+    ],
+    "cited_by": 94
+  },
+  {
+    "year": 2015,
+    "title": "Numerical simulations of propagation, bifurcation and coalescence of cracks in rocks",
+    "authors": "Xiaoping Zhou, Xin-Bao Gu, Yunteng Wang",
+    "journal": "International Journal of Rock Mechanics and Mining Sciences",
+    "doi": "https://doi.org/10.1016/j.ijrmms.2015.09.006",
+    "tags": [
+      "Fracture & Rocks"
+    ],
+    "cited_by": 83
+  }
+]
